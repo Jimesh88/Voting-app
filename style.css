@@ -1,0 +1,17 @@
+.itemStyle {
+    background-color: #88888838;
+    color: black;
+    padding: 18px;
+    width: 600px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.active, .itemStyle:hover {
+    background-color: #ccc;
+}
